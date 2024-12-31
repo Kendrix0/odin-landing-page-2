@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+header {
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.intro, .images, .inspiration, .signup, footer {
+    display: flex;
+    justify-content: center;
+}

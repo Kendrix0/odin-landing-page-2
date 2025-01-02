@@ -23,7 +23,6 @@ header {
     align-items: center;
     padding: 16px 10% 5%;
     margin: 0%;
-    font-size: large;
     gap: 16px;
 }
 
@@ -34,11 +33,6 @@ footer {
     padding: 16px;
 }
 
-header, footer, .intro {
-    background-color: #1f2937;
-    color: white;
-}
-
 button {
     padding: 4px 12px;
     justify-content: center;
@@ -47,6 +41,12 @@ button {
     background-color: #3882F6;
     font-size: 12px;
     font-weight: bold;
+    border-radius: 4px;
+}
+
+.dark {
+    background-color: #1f2937;
+    color: white;
 }
 
 .column {
@@ -56,7 +56,19 @@ button {
 .logo {
     margin-right: auto;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
 }
 
 .intro, .images, .signup {
@@ -96,4 +108,9 @@ div[class="figures"] img {
 
 .author {
     margin-left: auto;
+}
+
+.signup {
+    background-color: #3882F6;
+    
 }
